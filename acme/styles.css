@@ -1,0 +1,132 @@
+h1 {
+    color: #203535;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #c97925;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+.hero {
+    background-image: url(images/elephants.jpeg);
+    height: 400px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: darkslategray;
+}
+
+.box-1 {
+    border: 1px solid #ccc;
+    height: 200px;
+    width: 32.4%;
+}
+
+.box-1 p {
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.left {
+    background-image: url(images/pinwheels.jpeg);
+    background-size: cover;
+}
+
+.center {
+    background-color: #aba8a4;
+    color: #000;
+}
+
+.right {
+    background-color: #2F4F4F;
+    color: #FFF;
+}
+
+.center button {
+    margin-left: 120px;
+    height: 35px;
+    width: 120px;
+    background-color: #ce9965;
+    color: #000000;
+    border: 1px;
+}
+
+.box-1 .content img {
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.newsletter {
+    background: #c6803a;
+    width: 66.4%;
+}
+
+.newsletter p {
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #37232a;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.newsletter .form {
+    padding-left: 40px;
+}
+
+.newsletter .form input {
+    height: 32px;
+    padding: 18px 15px;
+    width: 320px;
+    border: 1px solid #c68039;
+    outline: none;
+}
+
+.newsletter .form button {
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background: #34242a;
+    border: none;
+    color: #FFF;
+}
+
+.testimonials-partners .content {
+    height: 150px;
+    background: #2F4F4F;
+    width: 49%;
+    text-align: center;
+    line-height: 165px;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Roboto;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 95%;
+}
